@@ -6,6 +6,10 @@ a break from the tiresome process of studying for med school
 link for download and a demo
 https://drive.google.com/drive/u/0/folders/1699EO_I1_8gNF3U2FLAEOvqJB2evct3s
 
-The code is attached in the cod_sursa
+The code is attached in the cod_sursa and is written in Java from scratch just usinh the window
+
+No particular Libraries were used
+
+
 
 This software belongs to Cozma Dacian 
