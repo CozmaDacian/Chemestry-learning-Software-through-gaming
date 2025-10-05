@@ -1,0 +1,8 @@
+java -jar application.jar "D:/joc_ch/resurse/De ce eu Project X/" 
+
+
+
+Linkul trebuie sa fie către locatia unde este salvat De ce eu Project X
+
+
+

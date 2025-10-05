@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ChemEditorApp": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\\\De|ce|eu|Project|X\\\\Level_Sprite\\\\Level1\\\\Intrebari\\\\intrebari1.txt\r\n\r\nC:\\\\De|ce|eu|Project|X\\\\Level_Sprite\\\\Level1\\\\Explicatii\\\\descrieri.txt"
+    }
+  }
+}

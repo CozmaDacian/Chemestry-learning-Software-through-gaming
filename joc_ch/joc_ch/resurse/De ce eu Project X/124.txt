@@ -1,0 +1,86 @@
+
+
+
+
+
+
+
+
+Boost Mic al Vieții"
+
+Titlu: "Vitalitate Consolidată"
+Descriere: Obții un bonus de +25 puncte de vitalitate, consolidându-ți rezistența în diversele bătălii și confruntări.
+"Boost-ul pentru Energie în Timpul Luptei"
+
+Titlu: "Energie Viguroasă"
+Descriere: Îți crește energia cu 10%, permițându-ți să rămâi activ și puternic în timpul confruntărilor.
+"Boost-ul pentru Daunele Armelor"
+
+Titlu: "Arme Înfricoșătoare"
+Descriere: Toate armele de bază primesc o creștere a daunelor cu 5%, conferindu-le mai multă putere și eficacitate în confruntările cu adversarii și inamicii.
+"Boost Mic al Armurii"
+
+Titlu: "Armură Consolidată"
+Descriere: Rezistența caracterului crește permanent cu 10%, sporindu-i capacitatea de a rezista la o gamă variată de atacuri și provocări.
+"Boost-ul pentru Energie în Luptă"
+
+Titlu: "Energie Feroce"
+Descriere: Îți oferă un plus de 20% la energia ta în timpul confruntărilor, sporindu-ți eficacitatea în luptă.
+"Boost-ul Mediu al Vieții"
+
+Titlu: "Rezistență Îmbunătățită"
+Descriere: Aduce un plus de 50 de puncte de viață personajului tău, conferindu-i o creștere semnificativă a rezistenței.
+"Atacuri Îmbunătățite"
+
+Titlu: "Forță Încreștinată"
+Descriere: Toate atacurile tale simple lovesc adversarul cu 10%, sporindu-ți puterea de atac și șansele de a învinge adversarii.
+"Boost-ul pentru Daunele Grenadei"
+
+Titlu: "Explozie Potentă"
+Descriere: Damage-ul provocat de grenada ta crește cu 10%, adăugându-ți mai multă forță în atacuri și provocări.
+"Atac la Toate Țintele"
+
+Titlu: "Impact Generalizat"
+Descriere: Damage-ul abilității de a ataca toate țintele crește cu 10%, crescându-ți capacitatea de a influența multiplele ținte într-o confruntare.
+"Dublu Atac"
+
+Titlu: "Versatilitate Aumentată"
+Descriere: Poți folosi două atacuri pe tură în timpul luptei, măritându-ți versatilitatea și puterea în bătălii.
+"Restaurare După Răspuns Corect"
+Titlu: "Revigorare Intelectuală"
+Descriere: După un răspuns corect la o întrebare, energia și viața îți vor fi restaurate complet.
+"Șansa de Recuperare După Răspuns Greșit"
+Titlu: "Revansa Hazardată"
+Descriere: Dacă răspunzi greșit la o întrebare, ai o șansă de 25% să recapete o parte din energia pe care o primeai dacă răspundeai corect.
+"Efect Dublu la Răspuns Greșit"
+Titlu: "Noroc Nebun"
+Descriere: Dacă răspunzi greșit la o întrebare, ai o șansă de 75% să primești jumătate din energia pe care ai fi primit-o în mod normal.
+"A Doua Șansă"
+Titlu: "Revanșa Norocoasă"
+Descriere: Dacă răspunzi greșit la o întrebare, ai o a doua șansă pentru a încerca din nou și poate obține o întrebare pe care o știi.
+"Restabilire la Borna de 0"
+Titlu: "Renăscut din Cenușă"
+Descriere: Când vitalitatea ta atinge borna de 0, un răspuns corect la întrebarea dată îți va restabili 25% din vitalitate.
+"Așteptare Strategică"
+Titlu: "Reîncărcare Inteligentă"
+Descriere: Dacă aștepți o tură în timpul luptei, energia pe care o primești în următoarea ta acțiune este mărită cu 10%, oferindu-ți mai multe resurse strategice pentru confruntări.
+**"Impact Suplimentar la Răspuns Core
+ct"**
+
+Titlu: "Răspuns Inspirat"
+Descriere: După un răspuns corect la o întrebare, damage-ul pe care îl provoci în tura respectivă este mărit cu 10%, crescându-ți eficacitatea în luptă și capacitatea de a învinge adversarii.
+"Potiuni de Viață Fabricate"
+Titlu: "Alchimie Vitală"
+Descriere: Prin descoperirea modului de fabricare a "potiunilor de viață", poți crea orice tip de potiuni pentru a-ți restabili vitalitatea în diferite grade de intensitate.
+"Reductor de Vitalitate"
+Titlu: "Debilitare Strategică"
+Descriere: Prin "Boost-ul pentru daunele armelor", toate versiunile de bază ale armelor tale beneficiază de o creștere a damage-ului cu 10%, aducând un avantaj considerabil în confruntările cu inamicii.
+"Impact Redus pentru Adversari"
+Titlu: "Slăbire Mortală"
+Descriere: Dacă răspunzi corect la o întrebare, vitalitatea adversarilor va scădea cu 20 de puncte, oferindu-ți un avantaj strategic în luptă.
+Aceste titluri pot adăuga o notă de creativitate și coeziune în joc, evidențiind diversitatea și importanța fiecărei abilități în cadrul universului de luptă.
+
+
+
+
+

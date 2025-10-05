@@ -1,0 +1,120 @@
+ double acc=1;
+		  this.checkCLoseToBorder();
+		  double horizontalSpeed = 2;
+		  double horizontalSpeedAir = 1.1f*acc;
+		    double verticalSpeedInAir = 1.3f*acc;
+		    double verticalSpeedOnGround = 1.6f*acc*2;
+		    double fallSpeed = 0.3f*acc;
+		    fallSpeed=0;
+		    double moveX = 0;
+		    double moveY = 0;
+
+
+
+		    if(this.y+verticalSpeedInAir+fallSpeed>=Game.GROUND && fall)
+		    	{
+
+		    	this.resetDirections();
+		    	this.y=Game.GROUND;on_ground=true;
+		    	setJump(false);
+				setFall(false);
+
+
+
+				animatie=1;
+				space_pressed=0;
+				tick=0;
+				on_ground=true;
+				}
+            if(!on_ground && inair && game.caracter.animatie>2) {
+
+            	if(this.st_air && this.space_pressed!=0 && this.dreapta) {
+
+		    		
+		    		if(fact_jump<1.1)
+		    		fact_jump+=0.01;
+		    	}
+            	
+            	 if(this.dr_air && this.space_pressed!=0 && this.stanga) {
+
+     		    	
+     		    	if(fact_jump<1.1)
+     		    	fact_jump+=0.01;
+     		    }	
+            	 if(this.dreapta)
+ 		    		moveX+=horizontalSpeed-fact_jump;
+ 		    	else
+ 		    	if(this.stanga) {
+ 		    		moveX-=horizontalSpeed-fact_jump;
+ 		    	}
+            	 moveY-=verticalSpeedInAir-fallSpeed;
+            }
+            else
+		    if(!on_ground && fall)
+		    {
+            
+		    	if(this.dreapta)
+		    		moveX+=horizontalSpeed-fact_jump;
+		    	else
+		    	if(this.stanga) {
+		    		moveX-=horizontalSpeed-fact_jump;
+		    	}
+		    	this.player_action=JUMP;
+		    	this.animatie=6;
+		    	if(this.st_air && this.space_pressed!=0 && this.dreapta) {
+
+		    		
+		    		if(fact_jump<1.7)
+		    		fact_jump+=0.01;
+		    	}
+		    	if(!stanga && !dreapta && !movingdr)
+		    		moveX-=1.2;
+		        if(!stanga && !dreapta && movingdr)
+		        	moveX+=1.2;
+		    if(this.dr_air && this.space_pressed!=0 && this.stanga) {
+
+		    	
+		    	if(fact_jump<1.7)
+		    	fact_jump+=0.01;
+		    }
+
+		    moveY+=verticalSpeedInAir-fallSpeed;
+	       }
+		    else
+			    if (this.player_action != IDLE) {
+			        if (stanga && !dreapta && !inair && !fall) {
+			            moveX -= horizontalSpeed;
+			        } else if (!stanga && dreapta && !inair && !fall) {
+			            moveX += horizontalSpeed;
+			        } else if (!stanga && !dreapta && movingdr && inair) {
+			            moveX += horizontalSpeedAir;
+			            moveY -= verticalSpeedInAir;
+			        } else if (!stanga && !dreapta && !movingdr && inair) {
+			            moveX -= horizontalSpeedAir;
+			            moveY -= verticalSpeedInAir;
+			        } else if (!stanga && !dreapta && !movingdr && fall) {
+			            moveX -= horizontalSpeedAir;
+			            moveY += verticalSpeedOnGround - fallSpeed;
+			        } else if (!stanga && !dreapta && movingdr && fall) {
+			            moveX += horizontalSpeedAir;
+			            moveY += verticalSpeedOnGround - fallSpeed;
+			        } else if (stanga && !dreapta && inair) {
+			            moveX -= horizontalSpeedAir;
+			            moveY -= verticalSpeedInAir - fallSpeed;
+			        } else if (!stanga && dreapta && inair) {
+			            moveX += horizontalSpeedAir;
+			            moveY -= verticalSpeedInAir - fallSpeed;
+			        } else if (stanga && !dreapta && fall) {
+			            moveX -= horizontalSpeedAir;
+			            moveY += verticalSpeedOnGround - fallSpeed;
+			        } else if (!stanga && dreapta && fall) {
+			            moveX += horizontalSpeedAir;
+			            moveY += verticalSpeedOnGround - fallSpeed;
+			        }
+		    }
+
+
+		    // Update character position
+		    this.x += moveX;
+		    this.y += moveY;
+	  }

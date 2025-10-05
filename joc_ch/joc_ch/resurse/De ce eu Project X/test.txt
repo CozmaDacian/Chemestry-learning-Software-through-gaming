@@ -1,0 +1,16 @@
+Care este formula apei?
+H20*
+H202*
+H302
+H506
+Care este valenta oxigenului
+4
+1
+2*
+3
+Care este valenta carbounului
+3
+1
+2
+4*
+

@@ -1,0 +1,112 @@
+Application are 500 de mb deoarece las si o copie de rezerva a resurselor originale
+in caz de orice 
+
+
+Conditii de rulare a jocului:
+
+1. Instalează Java (JRE sau JDK)
+✅ Recomandat: Descărcare Java oficială:
+🔗 https://www.java.com/en/download/ (JRE)
+🔗 https://jdk.java.net/ (JDK - pentru dezvoltatori)
+
+Ce să alegi?
+
+JRE (Java Runtime Environment) → Dacă vrei doar să rulezi aplicația.
+JDK (Java Development Kit) → Dacă vrei să rulezi și să dezvolți aplicații Java.
+
+Pentru ca aplicatia sa ruleze creeza un fisier text ca si cel de run
+il salvezi ca all files  si il poti numi oricum doresti atata timp cat are extensia .bat
+
+joc.bat (Exemplu)
+
+Inauntrul fisierului text
+Tasteaza urmatoarea comanda 
+java - jar application.jar, urmata de locatia unde ai salvat jocul
+locatia trebuie sa fie intre ghilimele " "
+Poti sa mai adaugi un al doilea argument pt numărul de nivele 
+Pt a rula jocul doar apasa pe run.bat
+
+Pt a nu vedea CMD :
+Mai apoi click stanga pe fisierul .bat click stanga pe fisierul bat, create shortcut
+Dupa ce ati creat shortcut-ul click pe proprietati si la run apasati pe minimized
+
+
+Instructiuni Joc
+Keybinds
+W A S D - Movement
+Space - Jump
+f5 - reload
+esc - back / resume if continue doesn't work
+
+Modificare intrebari:
+Lansati jocul si apasati butonul de edit
+Daca folositi argumentele default vor fi editate urmatoarele 2 fisiere
+- intrebari din resurse/ De ce eu ProjectX/ LevelSprite/ intrebari.txt
+- explicatii din resurse/ De ce eu ProjectX/ LevelSprite/ explicatii.txt
+
+Daca selectati fisierele puteti edita orice document text doriti
+De notat, documentul text trebuia creeat de dinainte
+
+Dupa orice tip de editare reporniti aplicatia
+
+
+Modificare statistici:
+Daca un adversar este prea puternic sau ceva nu este balansat in joc
+am lasat 2 fisiere in folderul Stats de unde puteti modifica atat statisticile inamicilor 
+cat si statisticile jucătorului
+
+Modificare PPT:
+In folderul Carte selectati nivelul pe care doriti sa il modificati si copiati un singur
+powerpoint in fisierul respectiv, powerpoint-ul poate fi numit cum doriti
+Am lasat unt teamplate pt powerpoint in fisierul carte, recomandarea mea este sa folositi font helvetica 
+deoarece nu isi pierde din calitate in momentul in care este convertit ppt in carte 
+
+
+Modificare Nivele (daca exista elevi doritori sa faca nivele noi) :
+Nu este extrem de dificil de modificat nivelele, dar necesita rabdare
+Construcția Nivelului: Harta jocului este construită folosind un fișier PNG.
+	Segmentarea Jocului: Harta este împărțită în tile-uri de 64x64 pixeli, fiecare având o textură asociată.
+	Determinarea Texturilor: Texturile sunt determinate pe baza valorii canalului roșu (R) din modelul RGBA
+        al pixelilor din fișierul PNG.
+	In folderul LevelSprite/ aveti cum fisierul texturi pt fiecare nivel
+	Fiecare camp de 64 x 64 are o valoare de rosu asociata, iar daca pui in fisierul
+	"Data" un pixel care sa aiba o valoare de rosu < 48 atunci in momentul randarii va aparea textura
+	   
+	Pot fi maxim 48 de texturi 
+
+	Determinarea inamicilor
+	Acestia vor fi pusi in acelasi fisier "Data"
+	Reprezinta pixeli care au o valoare rgb a 80 pt verde
+	Albastru reprezinta tipul de la 0 la 2
+	0 - robot alb
+	1 - robot rosu
+	2 - om
+	
+
+	Determinarea checkpointurilor
+	(value_green==128 && value_blue==128 && alpha==0) 
+	checkpoint obisnuit
+	
+	valoarea pozitiei caracterului = value green 81					
+	value_green==128 && value_blue==128 && value_red==10)	
+	checkpoint_final aici se incheie nivelul 
+					
+		      }
+	Determinare obiectelor
+	Obiectele au valoarea 200 -verde
+	Tipul obiectelor este decis in functie de componenta blue
+	Obiectele le puteti gasi in folderul Items
+
+Daca exista interesati de la minutl 10 
+https://www.youtube.com/watch?v=et5JeT-ESKk&list=PL4rzdwizLaxYmltJQRjq18a9gsSyEQQ-0&index=9
+
+NIVELELE ar trebui sa aiba 2 nivele maxim, pt mai multe trebuie modificat codul
+Dimensiunea maxima admisa este 100x24 pt png
+
+
+
+NOTA FINALA:
+In cazul in care observati ca jocul nu mai functioneaza dupa o modificare in fisiere, cel mai bine ar fi sa il reinstalati
+Nu am suficiente erori deoarece nu mi-am dat seama de importanta lor numai in momentul in care
+am ajuns la facultate :)
+

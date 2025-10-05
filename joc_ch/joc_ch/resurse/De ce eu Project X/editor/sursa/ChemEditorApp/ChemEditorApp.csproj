@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>alternate-pencil.256x256.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\back_quiz.png" />
+    <None Remove="Resources\data.txt" />
+    <None Remove="Resources\eye.png" />
+    <None Remove="Resources\quiz.jpg" />
+    <None Remove="Resources\save.png" />
+    <None Remove="Resources\trash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="alternate-pencil.256x256.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\back_quiz.png" />
+    <Resource Include="Resources\eye.png" />
+    <Resource Include="Resources\quiz.jpg" />
+    <Resource Include="Resources\save.png" />
+    <Resource Include="Resources\trash.png" />
+  </ItemGroup>
+
+</Project>

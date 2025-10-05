@@ -1,0 +1,27 @@
+1 Prin obținerea unui "Boost mic al vieții", personajul primește un bonus de +15 puncte de vitalitate, consolidându-și rezistența în diversele bătălii și confruntări.
+2 "Boost-ul pentru energie în timpul luptei" îți va crește energia caracterului cu 8 puncte , permițându-i să rămână activ și puternic pe parcursul confruntărilor.
+3 Cu "Boost-ul pentru daunele armelor", toate armele de bază primesc o creștere a daunelor cu 2 puncte, conferindu-le mai multă putere și eficacitate în confruntările cu adversarii și inamicii.
+4 Prin obținerea unui "Boost mic al armurii", rezistența caracterului crește permanent cu 1 punct, sporindu-i capacitatea de a rezista la o gamă variată de atacuri și provocări.
+5 Odată cu un răspuns corect la o întrebare, energia pe care o primește caracterul tău crește cu 10% din cantitatea obișnuită, oferindu-i un avantaj competitiv în următoarele bătălii.
+6 Ai palit jackpotul, prost să fii, noroc să ai, chiar dacă răspunzi greșit la o întrebare ai o șansă de 10% să recapeti jumatate din energia pe care o primeai dacă răspundeai corect.
+7 Toate atacurile tale simple vor lovi adversarul cu 10%, sporindu-ți puterea de atac și șansele de a învinge adversarii.
+8 Atunci când consumi "potiuni de viață" în luptă, acestea îți vor regenera cu 10 puncte mai multă vitalitate, oferindu-ți un plus de rezistență în bătălie.
+9 Consumul de "potiuni de energie" în timpul luptei va duce la regenerarea cu 10% mai multă energie, conferindu-ți resurse suplimentare pentru acțiuni în confruntări.
+10 Prin "Boost-ul pentru daunele armelor", toate versiunile de bază ale armelor tale beneficiază de o creștere a damage-ului cu 10%. Această îmbunătățire a puterii de luptă a armelor aduce un avantaj considerabil în confruntările cu inamicii.
+11 Damage-ul provocat de grenada ta crește substantial, adăugându-ți mai multă forță în atacuri și provocări.
+12 "Boost-ul mediu al vieții" este o îmbunătățire semnificativă, aducând un plus de 50 de puncte de viață personajului tău. Această creștere considerabilă a rezistenței îi conferă personajului mai multă durabilitate.
+13 "Boost-ul mediu al armurii" reprezintă o consolidare a rezistenței caracterului la diverse tipuri de atacuri. Prin obținerea acestui boost, rezistența la orice tip de atacuri crește permanent cu 10%.
+14 "Boost-ul pentru energie în timpul luptei" este o îmbunătățire substanțială care îi oferă personajului tău un plus de 20% la energia sa în timpul confruntărilor. Această creștere semnificativă a resurselor de energie îi permite să acționeze mai eficient în luptă.
+15 E ziua ta norocoasă, dacă răspunzi greșit la o întrebare ai o șansă de 25% să câștigi jumătate din energia pe care ai fi primit-o în general.
+16 Damage-ul abilității de a ataca toate țintele crește cu 10%, crescându-ți capacitatea de a influența multiplele ținte într-o confruntare.
+17 De acum poți folosi două atacuri pe tură în timpul luptei, măritându-ți versatilitatea și puterea în bătălii.
+18 Ai descoperit o formula care iti permite sa iti reimprospatezi caracterul, daca consumi potiuni de heal sau potiuni de viata vitalitatea si energia iti vor fi restaurate cu 50% la suta 
+19 Atunci când vitalitatea ta atinge borna de 0, o întrebare îți va apărea pe ecran; un răspuns corect îți va restabili 25% din vitalitate, oferindu-ți o șansă de supraviețuire și revenire în luptă.
+20 Dacă răspunzi corect la o întrebare vitalitatea adversarilor va scădea cu 20 de puncte.
+21 Dacă răspunzi corect la o întrebare toată energia îți va fi restaurata.
+22 A doua șansă, ai tras biletul ghinionist, mai încearcă o dată, poate a doua oară vei avea noroc și vei primi o întrebare pe care să o știi.
+23 Dacă aștepți o tură în timpul luptei, energia pe care o primești în următoarea ta acțiune este mărită cu 10%, oferindu-ți mai multe resurse strategice pentru confruntări.
+24 După un răspuns corect la o întrebare, damage-ul pe care îl provoci în tura respectivă este mărit cu 10%, crescându-ți eficacitatea în luptă și capacitatea de a învinge adversarii.
+
+
+

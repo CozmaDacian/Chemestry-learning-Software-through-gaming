@@ -1,0 +1,5 @@
+Sunt false urmatoarele afirmatii:
+din punct de vedere al compozitiei chimice, amidonul este format din doua polizaharide
+*amidonul hidrolizeaza in mediu acid cu formare de a-fructofuranoza
+*amidonul hidrolizeaza in mediu bazic cu formare de glucoza
+amilopectina este un polizaharid din structura chimica a amidonului

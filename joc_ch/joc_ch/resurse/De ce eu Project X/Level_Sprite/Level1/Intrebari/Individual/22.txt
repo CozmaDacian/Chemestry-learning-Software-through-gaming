@@ -1,0 +1,5 @@
+Sunt oligozaharide:
+*compuşii cu numărul de unități 2<n<10
+*zaharoza
+*celobioza
+celuloza

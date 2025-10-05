@@ -1,0 +1,5 @@
+damage_atac_1 10
+damage_atac_2 12
+remaining_health 70
+total_health 70
+defense_enemy 3

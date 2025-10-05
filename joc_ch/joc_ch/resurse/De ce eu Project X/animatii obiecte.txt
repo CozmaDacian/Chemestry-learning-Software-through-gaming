@@ -1,0 +1,18 @@
+Attack_Pistol_drop 0 6 12 18 
+Attack_Pistol_Up 0 6 12 18
+Attack_Pistol 0 1 2 3 4 13 19
+Dead 6 13 22 32 45 56 66 74  
+IDLEGUN=0
+JUMP_UP-GUN 0 17 47
+IDLE-tranzitia 0 14 21 
+JUMP_DOWN_GUN 0 17 47 
+Gun walk  4 10 18 24 30 38 46 55 60 0
+IDLE=0
+JUMP_UP-GUN 0 17 47
+IDLE-tranzitia 0 14 21 
+JUMP_DOWN_GUN 0 17 47 
+walk 4 10 18 24 30 38 46 55 60 0
+
+
+
+

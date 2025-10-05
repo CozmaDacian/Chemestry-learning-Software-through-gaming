@@ -1,0 +1,1 @@
+java -jar application.jar "D:/joc_ch/resurse/De ce eu Project X/" 

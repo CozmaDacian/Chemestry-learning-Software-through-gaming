@@ -1,0 +1,5 @@
+Referitor la formulele de structură spațiale ale monozaharidelor, alegeți afirmațiile corecte:
+*se numesc formule Haworth
+în aceste formule, ciclul piranozic este reprezentat printr-un pentagon
+*ciclul piranozic şi cel furanozic sunt orientate perpendicular pe planul hârtiei
+*au fost adoptate pentru a elimina dezavantajul formulelor de structură ciclice plane

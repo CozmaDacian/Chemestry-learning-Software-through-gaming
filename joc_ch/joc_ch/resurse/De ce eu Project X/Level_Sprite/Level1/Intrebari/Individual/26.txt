@@ -1,0 +1,5 @@
+Formele ciclice ale monozaharidelor se bazează pe structuri heterociclice de tip:
+*tetrahidrofuran
+*tetrahidropiran
+benzen
+naftalen

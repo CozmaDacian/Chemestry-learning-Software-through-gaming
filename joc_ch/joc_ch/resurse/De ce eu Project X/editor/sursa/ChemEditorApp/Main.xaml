@@ -1,0 +1,424 @@
+﻿<Window x:Class="ChemEditorApp.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChemEditorApp"
+        mc:Ignorable="d"
+        Title="Editeaza Intrebari"
+        ResizeMode="CanMinimize"
+        Background="#343434"
+        MaxHeight="500"
+        MaxWidth="800"
+        Height="500"
+        Width="800">
+    <Grid>
+        <Grid x:Name="nonPreview">
+            <Grid x:Name="headerGrid">
+                <TextBlock Foreground="White"
+                       Text="INTREBAREA"
+                       Margin="25,25,0,0"
+                       FontSize="25"
+                       FontWeight="ExtraBold"
+                       FontFamily="Trebuchet MS"/>
+                <TextBlock x:Name="questionText"
+                       Foreground="White"
+                       Text="00 din 00"
+                       Margin="180, 26, 0, 0"
+                       FontSize="25"
+                       FontWeight="DemiBold"
+                       FontStyle="Italic"
+                       FontFamily="Consolas"/>
+            </Grid>
+
+            <Grid x:Name="questionGrid"
+                  VerticalAlignment="Bottom"
+                  Margin="0,0,0,-20"
+                  Height="340">
+
+                <TextBlock Foreground="White"
+                       Margin="25,-40,0,0"
+                       FontSize="17"
+                       FontWeight="ExtraBold"
+                       FontFamily="Trebuchet MS">
+                    <Run Text="INTREBAREA "/>
+                    <Run Text="(textul efectiv al intrebarii)"
+                         Foreground="Gray"/>
+                </TextBlock>
+                <TextBox x:Name="questionBox"
+                         Margin="25,-15,0,0"
+                         IsUndoEnabled="False"
+                         Text="this is a very good question."
+                         FontFamily="Consolas"
+                         Padding="10,6.,0,0"
+                         FontSize="13"
+                         VerticalAlignment="Top"
+                         HorizontalAlignment="Left"
+                         Width="525"
+                         Height="30"/>
+
+                <TextBlock Foreground="White"
+                       Margin="25,40,0,0"
+                       FontSize="17"
+                       FontWeight="ExtraBold"
+                       FontFamily="Trebuchet MS">
+                    <Run Text="DESCRIEREA INTREBARII "/>
+                    <Run Text="(o descriere ajutatoare a intrebarii)"
+                         Foreground="Gray"/>
+                </TextBlock>
+                <TextBox x:Name="descBox"
+                          Margin="25,65,0,0"
+                          IsUndoEnabled="False"
+                          Text="this is a very good description."
+                          FontFamily="Consolas"
+                          Padding="10,6.,0,0"
+                          FontSize="13"
+                          VerticalAlignment="Top"
+                          HorizontalAlignment="Left"
+                          Width="525"
+                          Height="30"/>
+
+                <TextBlock Foreground="White"
+                       Margin="25,125,0,0"
+                       FontSize="17"
+                       FontWeight="ExtraBold"
+                       FontFamily="Trebuchet MS">
+                <Run Text="VARIANTELE DE RASPUNS"/>
+                <Run Text=" (selectati-le pe cele corecte)"
+                     Foreground="Gray"/>
+                </TextBlock>
+
+                <Grid Margin="0,-4,0,0">
+                    <CheckBox x:Name="opt0" 
+                          HorizontalAlignment="Left"
+                          VerticalAlignment="Top"
+                          Margin="25,162.5,0,0"/>
+                    <TextBox x:Name="ans0c"
+                     Margin="50,155,0,0"
+                     IsUndoEnabled="False"
+                     Text="answer 0"
+                     FontFamily="Consolas"
+                     Padding="10,6.,0,0"
+                     FontSize="13"
+                     VerticalAlignment="Top"
+                     HorizontalAlignment="Left"
+                     Width="500"
+                     Height="30"/>
+
+                    <CheckBox x:Name="opt1"
+                          HorizontalAlignment="Left"
+                          VerticalAlignment="Top"
+                          Margin="25,198,0,0"/>
+                    <TextBox x:Name="ans1c"
+                         Margin="50,190,0,0"
+                         IsUndoEnabled="False"
+                         Text="answer 1"
+                         FontFamily="Consolas"
+                         Padding="10,6.,0,0"
+                         FontSize="13"
+                         VerticalAlignment="Top"
+                         HorizontalAlignment="Left"
+                         Width="500"
+                         Height="30"/>
+
+                    <CheckBox x:Name="opt2"
+                          HorizontalAlignment="Left"
+                          VerticalAlignment="Top"
+                          Margin="25,233,0,0"/>
+                    <TextBox x:Name="ans2c"
+                     Margin="50,225,0,0"
+                     IsUndoEnabled="False"
+                     Text="answer 2"
+                     FontFamily="Consolas"
+                     Padding="10,6.,0,0"
+                     FontSize="13"
+                     VerticalAlignment="Top"
+                     HorizontalAlignment="Left"
+                     Width="500"
+                     Height="30"/>
+
+                    <CheckBox x:Name="opt3"
+                          HorizontalAlignment="Left"
+                          VerticalAlignment="Top"
+                          Margin="25,269,0,0"/>
+                    <TextBox x:Name="ans3c"
+                     Margin="50,260.5,0,0"
+                     IsUndoEnabled="False"
+                     Text="answer 3"
+                     FontFamily="Consolas"
+                     Padding="10,6.,0,0"
+                     FontSize="13"
+                     VerticalAlignment="Top"
+                     HorizontalAlignment="Left"
+                     Width="500"
+                     Height="30"/>
+                </Grid>
+            </Grid>
+
+            <Button x:Name="saveBtn"
+                    Cursor="Hand"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Margin="0,25,75,0"
+                    ToolTip="Salveaza intrebarile"
+                    Width="35"
+                    Height="35">
+                <Image Source="pack://application:,,,/Resources/save.png"
+                Height="25"
+                Width="25"/>
+            </Button>
+            <TextBlock Foreground="Gray"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Right"
+                    Text="Ctrl+S"
+                    Margin="0,62,78.5,0"
+                    FontSize="10"
+                    FontWeight="ExtraBold"
+                    FontFamily="Trebuchet MS"/>
+
+            <Line X1="0"
+                  X2="0"
+                  Y1="0"
+                  Y2="40"
+                  Margin="0,23,124,0"
+                  StrokeThickness="2"
+                  Stroke="Gray"
+                  VerticalAlignment="Top"
+                  HorizontalAlignment="Right"/>
+
+            <Button x:Name="trashBtn"
+                    Cursor="Hand"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    IsEnabled="False"
+                    Margin="0,25,140,0"
+                    ToolTip="Sterge intrebarea aceasta"
+                    Width="35"
+                    Height="35">
+                <Image Source="pack://application:,,,/Resources/trash.png"
+                       Opacity="0.5"
+                       Height="25"
+                       Width="25"/>
+            </Button>
+            <TextBlock Foreground="Gray"
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Right"
+                       Text="Del"
+                       Margin="0,62,150,0"
+                       FontSize="10"
+                       FontWeight="ExtraBold"
+                       FontFamily="Trebuchet MS"/>
+
+            <Button x:Name="addBtn"
+                    Cursor="Hand"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Margin="0,25,190,0"
+                    ToolTip="Adauga o intrebare noua"
+                    Width="35"
+                    Height="35">
+                <TextBlock Text="+"
+                           Foreground="Black"
+                           Margin="0,-9,0,0"
+                           FontSize="40"
+                           FontWeight="Bold"
+                           FontFamily="Trebuchet MS"/>
+            </Button>
+            <TextBlock Foreground="Gray"
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Right"
+                       Text="Ctrl+N"
+                       Margin="0,62,192.5,0"
+                       FontSize="10"
+                       FontWeight="ExtraBold"
+                       FontFamily="Trebuchet MS"/>
+
+            <Grid Margin="0,0,0,175"
+                  VerticalAlignment="Bottom"
+                  HorizontalAlignment="Right">
+
+                <CheckBox x:Name="autoSaveBox"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Right"
+                          Margin="0,-300,25,0"/>
+                <TextBlock Foreground="Gray"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Right"
+                       TextAlignment="Center"
+                       Text="Salveaza automat (fiecare 5s)"
+                       Margin="0,-300,45,0"
+                       FontSize="12"
+                       FontWeight="Bold"
+                       FontFamily="Trebuchet MS"/>
+                
+                <TextBlock Foreground="Gray"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Right"
+                       TextAlignment="Center"
+                       Text="Sari la&#x0a;intrebarea"
+                       Margin="0,-80,43,0"
+                       FontSize="15"
+                       FontWeight="ExtraBold"
+                       FontFamily="Trebuchet MS"/>
+                <TextBox x:Name="jumpBox"
+                     Margin="0,0,38.5,0"
+                     IsUndoEnabled="False"
+                     Text="0"
+                     FontFamily="Consolas"
+                     Padding="10,2,0,0"
+                     FontSize="20"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Right"
+                     Width="85"
+                     Height="30"/>
+                <TextBlock Foreground="Gray"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Right"
+                       TextAlignment="Center"
+                       Text="SAU"
+                       Opacity="0.7"
+                       Margin="0,70,66.5,0"
+                       FontSize="15"
+                       FontWeight="ExtraBold"
+                       FontFamily="Trebuchet MS"/>
+                
+            </Grid>
+            <Grid x:Name="navigators"
+                  VerticalAlignment="Bottom"
+                  HorizontalAlignment="Right"
+                  Margin="0,0,25,10">
+                <Button x:Name="lastBtn"
+                        Cursor="Hand"
+                        ToolTip="Ultima intrebare"
+                        IsEnabled="False"
+                        Margin="50,50,0,0"
+                        Width="35"
+                        Height="35">
+                    <TextBlock Text="⇥"
+                               FontSize="25"
+                               FontWeight="Bold"
+                               FontFamily="Trebuchet MS"/>
+                </Button>
+                <Button x:Name="nextBtn"
+                        Cursor="Hand"
+                        ToolTip="Urmatoarea intrebare"
+                        IsEnabled="False"
+                        Margin="50,0,0,50"
+                        Width="35"
+                        Height="60">
+                    <TextBlock Text="→"
+                           FontSize="25"
+                           FontWeight="Bold"
+                           FontFamily="Trebuchet MS"/>
+                </Button>
+
+                <Button x:Name="prevBtn"
+                        Cursor="Hand"
+                        ToolTip="Intrebarea precedenta"
+                        IsEnabled="False"
+                        Margin="0,0,50,50"
+                        Width="35"
+                        Height="60">
+                    <TextBlock Text="←"
+                           FontSize="25"
+                           FontWeight="Bold"
+                           FontFamily="Trebuchet MS"/>
+                </Button>
+                <Button x:Name="firstBtn"
+                        Cursor="Hand"
+                        ToolTip="Prima intrebare"
+                        IsEnabled="False"
+                        Margin="0,50,50,0"
+                        Width="35"
+                        Height="35">
+                    <TextBlock Text="⇤"
+                           FontSize="25"
+                           FontWeight="Bold"
+                           FontFamily="Trebuchet MS"/>
+                </Button>
+
+                <TextBlock Foreground="Gray"
+                           VerticalAlignment="Top"
+                           HorizontalAlignment="Center"
+                           TextAlignment="Center"
+                           Text="Navigheaza prin&#x0a;intrebari"
+                           Margin="0,-45,0,0"
+                           FontSize="15"
+                           FontWeight="ExtraBold"
+                           FontFamily="Trebuchet MS"/>
+            </Grid>
+            
+        </Grid>
+
+        <Grid x:Name="prev"
+              IsHitTestVisible="False"
+              Opacity="0">
+            <Image Source="pack://application:,,,/Resources/back_quiz.png"
+                   Stretch="Fill"/>
+            <Image Source="pack://application:,,,/Resources/quiz.jpg"/>
+
+            <TextBlock x:Name="questionPrev"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Foreground="Yellow"
+                       FontSize="20"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap"
+                       Width="400"
+                       Margin="0,85,0,0"/>
+
+            <TextBlock x:Name="ans0prev"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Foreground="White"
+                       FontSize="12"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap"
+                       Width="200"
+                       Margin="0,210,220,0"/>
+
+            <TextBlock x:Name="ans1prev"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Foreground="White"
+                       FontSize="12"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap"
+                       Width="200"
+                       Margin="220,210,0,0"/>
+
+            <TextBlock x:Name="ans2prev"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Foreground="White"
+                       FontSize="12"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap"
+                       Width="200"
+                       Margin="0,320,225,0"/>
+
+            <TextBlock x:Name="ans3prev"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Foreground="White"
+                       FontSize="12"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap"
+                       Width="200"
+                       Margin="220,320,0,0"/>
+        </Grid>
+
+        <Button x:Name="previewBtn"
+                Cursor="Hand"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="0,25,25,0"
+                ToolTip="Vezi cum s-ar vedea intrebarea in joc"
+                Width="35"
+                Height="35">
+            <Image Source="pack://application:,,,/Resources/eye.png"
+                   Height="25"
+                   Width="25"/>
+        </Button>
+    </Grid>
+</Window>
